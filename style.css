@@ -6,8 +6,8 @@
 }
 
 body {
-  background-color: #f4f6f8;
-  color: #333;
+  background-color: #f3efe9; /* بيج فاتح */
+  color: #3b2f2f; /* قهوائي غامق */
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
 
 /* Header */
 .header {
-  background-color: #1e293b;
+  background-color: #2f5d50; /* أخضر غامق */
   color: #fff;
   padding: 30px 0;
   text-align: center;
@@ -30,7 +30,7 @@ body {
 
 .job {
   font-size: 1.2rem;
-  color: #cbd5e1;
+  color: #d1e7dd; /* أخضر فاتح */
 }
 
 .dark-btn {
@@ -39,6 +39,8 @@ body {
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  background-color: #6b4f3f; /* قهوائي */
+  color: #fff;
 }
 
 /* Cards */
@@ -47,18 +49,19 @@ body {
   padding: 20px;
   margin: 20px 0;
   border-radius: 10px;
+  border-left: 6px solid #2f5d50; /* أخضر */
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .card h2 {
-  color: #1e293b;
+  color: #2f5d50;
   margin-bottom: 10px;
 }
 
 /* Skills */
 .skills span {
   display: inline-block;
-  background-color: #3b82f6;
+  background-color: #6b4f3f; /* قهوائي */
   color: #fff;
   padding: 6px 12px;
   margin: 5px;
@@ -68,7 +71,7 @@ body {
 
 /* Footer */
 .footer {
-  background-color: #1e293b;
+  background-color: #2f5d50;
   color: #fff;
   text-align: center;
   padding: 15px;
