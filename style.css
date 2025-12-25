@@ -1,32 +1,26 @@
-:root {
-  --bg: #f4f7fb;
-  --card: #ffffff;
-  --text: #1f2933;
-  --primary: #2563eb;
-
-  --dark-bg: #0f172a;
-  --dark-card: #1e293b;
-  --dark-text: #e5e7eb;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 body {
-  font-family: "Segoe UI", Arial, sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  transition: background 0.3s, color 0.3s;
+  background-color: #f4f6f8;
+  color: #333;
 }
 
-/* HEADER */
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Header */
 .header {
-  background: linear-gradient(135deg, #2563eb, #1e40af);
-  color: white;
-  padding: 40px 20px;
+  background-color: #1e293b;
+  color: #fff;
+  padding: 30px 0;
   text-align: center;
 }
 
@@ -35,68 +29,48 @@ body {
 }
 
 .job {
-  opacity: 0.9;
-  margin-top: 5px;
+  font-size: 1.2rem;
+  color: #cbd5e1;
 }
 
 .dark-btn {
-  margin-top: 20px;
-  background: transparent;
-  border: 2px solid white;
-  color: white;
-  padding: 8px 14px;
-  font-size: 18px;
+  margin-top: 10px;
+  padding: 6px 10px;
+  border: none;
   cursor: pointer;
-  border-radius: 50px;
+  border-radius: 5px;
 }
 
-/* LAYOUT */
-.container {
-  max-width: 900px;
-  margin: auto;
-}
-
-/* CARDS */
+/* Cards */
 .card {
-  background: var(--card);
-  padding: 25px;
-  margin: 25px 15px;
-  border-radius: 14px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-}
-
-/* SKILLS */
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.skills span {
-  background: var(--primary);
-  color: white;
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 14px;
-}
-
-/* FOOTER */
-.footer {
-  text-align: center;
+  background-color: #ffffff;
   padding: 20px;
-  opacity: 0.7;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-/* DARK MODE */
-body.dark {
-  background: var(--dark-bg);
-  color: var(--dark-text);
+.card h2 {
+  color: #1e293b;
+  margin-bottom: 10px;
 }
 
-body.dark .card {
-  background: var(--dark-card);
+/* Skills */
+.skills span {
+  display: inline-block;
+  background-color: #3b82f6;
+  color: #fff;
+  padding: 6px 12px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 0.9rem;
 }
 
-body.dark .footer {
-  color: var(--dark-text);
+/* Footer */
+.footer {
+  background-color: #1e293b;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
 }
